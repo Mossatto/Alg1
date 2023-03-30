@@ -4,7 +4,7 @@ Desenvolvedor: Matheus Mossatto Galvão dos Santos
 
 Descrição do problema:
 
-	Uma boa alimentação é essencial para uma vida saudável, e as proteínas são nutrientes importantes para o bom funcionamento de corpo e do desenvolvimento muscular.
+Uma boa alimentação é essencial para uma vida saudável, e as proteínas são nutrientes importantes para o bom funcionamento de corpo e do desenvolvimento muscular.
 Para cada tipo de objetivo, peso e nível de atividade física existe uma quantidade especifíca de proteínas que devem ser ingeridas diariamente, e muitas vezes isso é difícil de mensurar de maneiras rápida.
 Para isso foi criada a calculadora de proteínas, que guiado pelo seu peso e nível de atividade física, recomenda certa quantidade de proteína, além de calcular a quantidade de alimento a ser ingerido.
 
