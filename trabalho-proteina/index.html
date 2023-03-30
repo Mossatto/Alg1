@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="calculo-proteina.css" />
+  </head>
+  <body>
+    
+    
+    <header>
+      <nav>
+        <div class="container">
+          <img src="halter.jpg" alt="" />
+          <div><a href="#home">Home</a></div>
+          <div><a href="#Calculadora-proteina">Calculadora Proteinas</a></div>
+          <div><a href="#calculadora-alimentos">Calculadora ALimentos</a></div>
+        </div>
+      </nav>
+    </header>
+    
+    
+    <section class="home" id="home">
+      
+        <div class="informacoes">
+            <h3>Importância das proteínas</h3>
+          <p>
+            As proteínas são de fundamental importância para diversos processos
+            do organismo humano, desde a estrutura das células até a imunidade.
+            Em alimentações restritivas ou não, o consumo de proteínas é
+            indispensável, porque essas moléculas garantem os aminoácidos
+            essenciais, aqueles que o corpo não produz.
+          </p>
+          <div class="imagens">
+            <img src="egg-g4880a4702_1920.png" alt="">
+            <img src="chicken-g762064ffa_1920.png" alt="">
+        </div>
+        </div>
+        
+      
+    </section>
+
+    
+    
+    <section id="Calculadora-proteina">
+      <div class="forms">
+        <form id="proteina-form">
+          <h3>Calculadora de <span>Proteínas</span></h3>
+          <label for="massa-corporal"
+            >Insira sua massa corporal <span>(KG):</span></label
+          >
+          <input
+            type="number"
+            id="massa-corporal"
+            name="massa-corporal"
+          /><br />
+
+          <label for="nivel-atividade">Nivel de atividade física:</label>
+          <select name="nivel-atividade" id="nivel-atividade">
+            <option value="baixo">Baixo</option>
+            <option value="moderado">Moderado</option>
+            <option value="alto">Alto</option></select
+          ><br />
+
+          <button style="--clr: #fc0317" type="submit">
+            <span>Calcular</span> <i></i>
+          </button>
+
+          <div id="resultado"></div>
+        </form>
+        
+      </div>
+    </section>
+
+    <section id="calculadora-alimentos">
+      <div class="forms2">
+        <form id="alimento-form">
+          <h3><span>Proteína</span> dos alimentos</h3>
+          <label for="quant-proteina"
+            >Insira a quantidade de proteínas que deseja consumir <span>(Gramas):</span></label>
+          
+          <input
+            type="number"
+            id="quantidade-proteina"
+            name="quantidade-proteina"
+          /><br />
+
+          <label for="proteina-alimento">Escolha o alimento:</label>
+            <select name="alimento" id="alimento" >
+              <option value="frango">frango</option>
+              <option value="peixe">Peixe</option>
+              <option value="ovo">Ovo inteiro</option>
+              <option value="feijao">Feijão</option>
+              <option value="boi">Carne bovina</option>
+              <option value="whey">Whey Protein</option>
+              <option value="porco">Carne de Porco</option>
+              <option value="soja">Proteína de soja</option>
+            
+            </select>
+          <br />
+
+          <button style="--clr: #fc0317" type="submit">
+            <span>Calcular</span> <i></i>
+          </button>
+
+          <div id="resultado-proteina"></div>
+        </form>
+        
+      </div>
+    </section>
+
+    
+
+    
+   
+   
+   
+    <script src="calculo-proteina.js"></script>
+  </body>
+</html>
