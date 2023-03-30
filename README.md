@@ -102,4 +102,4 @@ Identificação das variáveis:
 	Esse valor representa a quantidade necessária do alimento para suprir a quantidade de proteínas ingerida.
 
 
-
+https://cute-pavlova-2751ec.netlify.app/
